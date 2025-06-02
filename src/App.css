@@ -164,14 +164,14 @@ body {
 
   /* Further reduce sizes and adjust positions for very small screens */
   #img1 {
-    top: 33% !important;
+    top: 32.5% !important;
     left: 24% !important;
     width: 60px !important;
     height: 93px !important;
   }
   #img2 {
     top: 31.2% !important;
-    left: 40% !important;
+    left: 40.5% !important;
     width: 38px !important;
     height: 61px !important;
   }
@@ -182,26 +182,26 @@ body {
     height: 85px !important;
   }
   #img4 {
-    top: 44.4% !important;
+    top: 41.4% !important;
     left: 53.4% !important;
     width: 55px !important;
     height: 25px !important;
   }
   #img5 {
-    top: 48% !important;
+    top: 44.1% !important;
     left: 53.4% !important;
     width: 45px !important;
     height: 25px !important;
   }
   #img6 {
-    top: 53% !important;
+    top: 48% !important;
     left: 57% !important;
     width: 20px !important;
     height: 25px !important;
   }
   #img7 {
-    top: 41% !important;
-    left: 40% !important;
+    top: 38.5% !important;
+    left: 40.4% !important;
     width: 50px !important;
     height: 65px !important;
   }
