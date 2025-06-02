@@ -86,47 +86,126 @@ body {
   width: 875px;
   
 }
-/* === Media Queries for Mobile Screens === */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .puzzle-container {
+    border-width: 2px; /* Reduce border for smaller screens */
+    border-radius: 0.5rem;
+  }
+
+  .puzzle-images {
+    left: 5%; /* Adjust left position to center more */
+    width: 90%; /* Make it take more width on mobile */
+    top: 5%; /* Adjust top for better vertical centering */
+    height: 90%; /* Make it take more height */
+  }
+
+  /* Adjust individual piece sizes and positions for mobile */
+  #img1 {
+    top: 33% !important;
+    left: 20% !important;
+    width: 80px !important;
+    height: 120px !important;
+  }
+  #img2 {
+    top: 28% !important;
+    left: 32.22% !important;
+    width: 60px !important;
+    height: 84px !important;
+  }
+  #img3 {
+    top: 27% !important;
+    left: 40.9% !important;
+    width: 90px !important;
+    height: 110px !important;
+  }
+  #img4 {
+    top: 58.2% !important;
+    left: 43.5% !important;
+    width: 70px !important;
+    height: 28px !important;
+  }
+  #img5 {
+    top: 65.8% !important;
+    left: 43% !important;
+    width: 60px !important;
+    height: 35px !important;
+  }
+  #img6 {
+    top: 79% !important;
+    left: 46% !important;
+    width: 28px !important;
+    height: 35px !important;
+  }
+  #img7 {
+    top: 51.3% !important;
+    left: 32.3% !important;
+    width: 74px !important;
+    height: 80px !important;
+  }
+}
+
+/* For even smaller screens (e.g., typically phones in portrait mode) */
+@media (max-width: 480px) {
   .puzzle-wrapper {
-    margin: 0;
-    padding: 0;
-    height: auto;
-    align-items: flex-start;
-    justify-content: flex-start;
+    margin: 5px;
   }
 
   .puzzle-container {
-    width: 100%;
-    height: auto;
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    padding: 1rem;
+    border-width: 1px;
+    border-radius: 0.3rem;
   }
 
   .puzzle-images {
-    position: fixed;
-    width: 115%;
-    left: 13px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    /* transform: scale(0.5); */
-    /* transform-origin: top left; */
+    left: 2%;
+    width: 96%;
+    top: 2%;
+    height: 96%;
   }
 
-  .puzzle-piece {
-    transition: transform 1.5s ease;
+  /* Further reduce sizes and adjust positions for very small screens */
+  #img1 {
+    top: 8% !important;
+    left: 1% !important;
+    width: 60px !important;
+    height: 90px !important;
+  }
+  #img2 {
+    top: 6% !important;
+    left: 22% !important;
+    width: 45px !important;
+    height: 80px !important;
+  }
+  #img3 {
+    top: 6% !important;
+    left: 42% !important;
+    width: 70px !important;
+    height: 85px !important;
+  }
+  #img4 {
+    top: 25% !important;
+    left: 48% !important;
+    width: 50px !important;
+    height: 25px !important;
+  }
+  #img5 {
+    top: 35% !important;
+    left: 48% !important;
+    width: 45px !important;
+    height: 25px !important;
+  }
+  #img6 {
+    top: 50% !important;
+    left: 52% !important;
+    width: 25px !important;
+    height: 25px !important;
+  }
+  #img7 {
+    top: 20% !important;
+    left: 18% !important;
+    width: 55px !important;
+    height: 65px !important;
   }
 }
-
-@media (max-width: 480px) {
-  .puzzle-images {
-    transform: scale(0.4);
-  }
-}
-
 
 
 
