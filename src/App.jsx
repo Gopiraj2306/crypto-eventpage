@@ -225,13 +225,13 @@ const App = () => {
   const [pieceTransforms, setPieceTransforms] = useState({});
 
   const imagePieces = [
-    { id: 'img1', src: img1, initial: { top: '24%', left: '5%', width: '30%', height: '50%' } },
-    { id: 'img2', src: img2, initial: { top: '17%', left: '35%', width: '21%', height: '39%' } },
-    { id: 'img3', src: img3, initial: { top: '20%', left: '56%', width: '27%', height: '37%' } },
-    { id: 'img4', src: img4, initial: { top: '56.20%', left: '56%', width: '27%', height: '11%' } },
-    { id: 'img5', src: img5, initial: { top: '66.5%', left: '56%', width: '22%', height: '13%' } },
-    { id: 'img6', src: img6, initial: { top: '84%', left: '64%', width: '12%', height: '14%' } },
-    { id: 'img7', src: img7, initial: { top: '56%', left: '35%', width: '21%', height: '21%' } },
+    { id: 'img1', src: img1, initial: { top: '24%', left: '5.3%', width: '190px', height: '287px' } },
+    { id: 'img2', src: img2, initial: { top: '20.50%', left: '27%', width: '113px', height: '193.85px' } },
+    { id: 'img3', src: img3, initial: { top: '20.3%', left: '39.50%', width: '191px', height: '240px' } },
+    { id: 'img4', src: img4, initial: { top: '45.90%', left: '44%', width: '151px', height: '69px' } },
+    { id: 'img5', src: img5, initial: { top: '53.25%', left: '44%', width: '131px', height: '70px' } },
+    { id: 'img6', src: img6, initial: { top: '64%', left: '49%', width: '69px', height: '70px' } },
+    { id: 'img7', src: img7, initial: { top: '41%', left: '27%', width: '150px', height: '172.30px' } },
   ];
 
   const separationOffsets = {
