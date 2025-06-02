@@ -1,4 +1,4 @@
-/* Basic styles for the body and wrapper */
+Basic styles for the body and wrapper
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -93,7 +93,7 @@ body {
   }
 
   .puzzle-images {
-    left: 5%; /* Adjust left position to center more */
+    left: 17%; /* Adjust left position to center more */
     width: 90%; /* Make it take more width on mobile */
     top: 5%; /* Adjust top for better vertical centering */
     height: 90%; /* Make it take more height */
@@ -101,45 +101,45 @@ body {
 
   /* Adjust individual piece sizes and positions for mobile */
   #img1 {
-    top: 33% !important;
-    left: 20% !important;
+    top: 34% !important;
+    left: 17% !important;
     width: 80px !important;
-    height: 120px !important;
+    height: 124px !important;
   }
   #img2 {
-    top: 28% !important;
-    left: 32.22% !important;
-    width: 60px !important;
+    top: 31.3% !important;
+    left: 31% !important;
+    width: 48px !important;
     height: 84px !important;
   }
   #img3 {
-    top: 27% !important;
-    left: 40.9% !important;
+    top: 31% !important;
+    left: 39.5% !important;
     width: 90px !important;
     height: 110px !important;
   }
   #img4 {
-    top: 58.2% !important;
-    left: 43.5% !important;
-    width: 70px !important;
+    top: 49.8% !important;
+    left: 41.5% !important;
+    width: 77px !important;
     height: 28px !important;
   }
   #img5 {
-    top: 65.8% !important;
-    left: 43% !important;
-    width: 60px !important;
+    top: 54.5% !important;
+    left: 41% !important;
+    width: 69px !important;
     height: 35px !important;
   }
   #img6 {
-    top: 79% !important;
-    left: 46% !important;
+    top: 62% !important;
+    left: 45% !important;
     width: 28px !important;
     height: 35px !important;
   }
   #img7 {
-    top: 51.3% !important;
-    left: 32.3% !important;
-    width: 74px !important;
+    top: 45.8% !important;
+    left: 31.1% !important;
+    width: 61px !important;
     height: 80px !important;
   }
 }
@@ -164,45 +164,45 @@ body {
 
   /* Further reduce sizes and adjust positions for very small screens */
   #img1 {
-    top: 8% !important;
-    left: 1% !important;
+    top: 33% !important;
+    left: 24% !important;
     width: 60px !important;
-    height: 90px !important;
+    height: 93px !important;
   }
   #img2 {
-    top: 6% !important;
-    left: 22% !important;
-    width: 45px !important;
-    height: 80px !important;
+    top: 31.2% !important;
+    left: 40% !important;
+    width: 38px !important;
+    height: 61px !important;
   }
   #img3 {
-    top: 6% !important;
-    left: 42% !important;
+    top: 30.7% !important;
+    left: 50.2% !important;
     width: 70px !important;
     height: 85px !important;
   }
   #img4 {
-    top: 25% !important;
-    left: 48% !important;
-    width: 50px !important;
+    top: 44.4% !important;
+    left: 53.4% !important;
+    width: 55px !important;
     height: 25px !important;
   }
   #img5 {
-    top: 35% !important;
-    left: 48% !important;
+    top: 48% !important;
+    left: 53.4% !important;
     width: 45px !important;
     height: 25px !important;
   }
   #img6 {
-    top: 50% !important;
-    left: 52% !important;
-    width: 25px !important;
+    top: 53% !important;
+    left: 57% !important;
+    width: 20px !important;
     height: 25px !important;
   }
   #img7 {
-    top: 20% !important;
-    left: 18% !important;
-    width: 55px !important;
+    top: 41% !important;
+    left: 40% !important;
+    width: 50px !important;
     height: 65px !important;
   }
 }
