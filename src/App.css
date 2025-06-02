@@ -86,10 +86,47 @@ body {
   width: 875px;
   
 }
+/* === Media Queries for Mobile Screens === */
+@media (max-width: 768px) {
+  .puzzle-wrapper {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 
+  .puzzle-container {
+    width: 100%;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 1rem;
+  }
 
+  .puzzle-images {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transform: scale(0.5);
+    transform-origin: top left;
+  }
 
-.initial{
-   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  .puzzle-piece {
+    transition: transform 1.5s ease;
+  }
 }
+
+@media (max-width: 480px) {
+  .puzzle-images {
+    transform: scale(0.4);
+  }
+}
+
+
+
+
