@@ -228,10 +228,10 @@ const App = () => {
     { id: 'img1', src: img1, initial: { top: '24%', left: '5.3%', width: '190px', height: '287px' } },
     { id: 'img2', src: img2, initial: { top: '20.50%', left: '27%', width: '110px', height: '193.85px' } },
     { id: 'img3', src: img3, initial: { top: '20.3%', left: '39.50%', width: '191px', height: '240px' } },
-    { id: 'img4', src: img4, initial: { top: '45.90%', left: '44%', width: '151px', height: '69px' } },
-    { id: 'img5', src: img5, initial: { top: '53.25%', left: '44%', width: '131px', height: '70px' } },
-    { id: 'img6', src: img6, initial: { top: '64%', left: '49%', width: '69px', height: '70px' } },
-    { id: 'img7', src: img7, initial: { top: '41%', left: '27%', width: '150px', height: '172.30px' } },
+    { id: 'img4', src: img4, initial: { top: '51.9%', left: '44%', width: '151px', height: '69px' } },
+    { id: 'img5', src: img5, initial: { top: '61.10%', left: '44%', width: '131px', height: '70px' } },
+    { id: 'img6', src: img6, initial: { top: '74%', left: '49%', width: '69px', height: '70px' } },
+    { id: 'img7', src: img7, initial: { top: '46%', left: '27%', width: '150px', height: '172.33px' } },
   ];
 
   const separationOffsets = {
